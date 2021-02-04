@@ -1,0 +1,16 @@
+ADD K                 
+L3: SUB p
+CLA 
+INP 15
+INP B 
+LAC 25
+SUB B
+ADD ='5'
+BRN L3
+DSP A
+CLA
+DSP B
+CLA
+T: BRZ L3
+L4: CLA
+STP
